@@ -1,0 +1,23 @@
+[
+  {
+    "question": "Quelle est la couleur de la voiture ?",
+    "choices": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "salut",
+      "salut"],
+    "answer": 1,
+    "reason": "La voiture est rouge parce que... (Q1)"
+  },
+  {
+    "question": "Quelle est la couleur de la voiture ?",
+    "choices": ["rouge", "bleu", "vert"],
+    "answer": 2,
+    "reason": "La voiture est bleue parce que... (Q2)"
+  },
+  {
+    "question": "Question 3",
+    "choices": ["bleu", "jaune", "vert"],
+    "answer": 2,
+    "reason": "La voiture est jaune parce que... (Q3)"
+  }
+]

@@ -1,0 +1,88 @@
+:root {
+    --good: #155724;
+    --bc-color--good: #d4edda;
+    --border-color-good: #c3e6cb;
+
+    --bad: #721c24;
+    --bc-color--bad: #f8d7da;
+    --border-color-bad: #f5c6cb;
+
+    --udes-color: #018849;
+
+    --reason-height: 5rem;
+
+    --icon-good: "\f058";
+    --icon-bad: "\f057";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+}
+
+.app {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scoreboard {
+    position: fixed;
+    bottom: calc(var(--reason-height) + 1rem);
+    right: 2rem;
+}
+
+.scoreboard li {
+    list-style: none;
+    position: relative;
+}
+
+.scoreboard li:after {
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    left: -1.5rem;
+}
+
+.scoreboard li.good:after {
+    color: var(--good);
+    content: var(--icon-good);
+}
+
+.scoreboard li.bad:after {
+    color: var(--bad);
+    content: var(--icon-bad);
+}
+
+
+button.default {
+    background-color: var(--udes-color);
+    color: white;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+button.default:after {
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    content: "\f358";
+    color: white;
+    margin-left: 0.5rem;
+    //position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button.default:hover {
+    cursor: pointer;
+}
