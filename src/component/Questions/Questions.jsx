@@ -1,7 +1,7 @@
 import * as React from 'react';
 import QuestionsData from '../../questions.json';
 import Question from "../../component/Question/Question";
-import {useRef, useEffect, useState} from "react";
+import {useRef, useEffect, useState, useCallback} from "react";
 
 export function Questions() {
   const [answered, setAnswered] = useState([]);
@@ -20,19 +20,20 @@ export function Questions() {
     }
   }
 
-  const handleWin = () => {
+  const handleWin = useCallback(() => {
     setWon(true);
-  }
+    console.log(won)
+  }, [won])
 
   useEffect(() => {
     refs.current = refs.current.slice(0, Questions.length)
-  }, [Questions])
+  }, [])
 
   useEffect(() => {
     if (answered.length === Questions.length) {
       handleWin();
     }
-  }, [answered]);
+  }, [answered, handleWin]);
   return (
     <div className={'app'}>
       {

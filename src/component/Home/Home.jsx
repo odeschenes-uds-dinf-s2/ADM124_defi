@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './home.css';
 import Img from './meeting.svg'
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export function Home() {
   return (
