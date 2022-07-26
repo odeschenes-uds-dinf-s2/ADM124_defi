@@ -25,7 +25,7 @@
 }
 
 section.question {
-    height: 100vh;
+    height: calc(100vh - var(--navigation-height));
     position: relative;
     scroll-snap-align: center;
     display: flex;
@@ -33,6 +33,7 @@ section.question {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #F0F0F0;
 }
 
 section.question header {
@@ -61,6 +62,7 @@ section.question li {
     padding-left: 1rem;
     padding-right: 2rem;
     transition: border-color 0.2s ease-in-out;
+    background-color: white;
 }
 
 section.question li:before {

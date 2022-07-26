@@ -1,0 +1,8 @@
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    @apply text-xl;
+}
+
+.navigation a[aria-current="page"] {
+   /* @apply text-udes-100*/
+}

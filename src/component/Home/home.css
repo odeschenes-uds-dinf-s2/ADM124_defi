@@ -1,0 +1,22 @@
+.home {
+    height: calc(100vh - var(--navigation-height));
+    /*background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);*/
+
+    padding-top: 20rem;
+}
+
+.home-title {
+    @apply text-8xl;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-img {
+    width: 80%;
+}
+
+.home-links > div {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    @apply text-white p-2 rounded-md hover:cursor-pointer;
+}

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --good: #155724;
     --bc-color--good: #d4edda;
@@ -13,6 +17,8 @@
 
     --icon-good: "\f058";
     --icon-bad: "\f057";
+
+    --navigation-height: 5vh;
 }
 
 * {
@@ -21,11 +27,15 @@
 }
 
 body {
-    background: #fafafa;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.navigation {
+    height: var(--navigation-height);
 }
 
 .app {
-    height: 100vh;
+    height: calc(100vh - var(--navigation-height));
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
