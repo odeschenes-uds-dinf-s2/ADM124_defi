@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import './Question.css';
 
 const Question = (props) => {
@@ -12,6 +12,8 @@ const Question = (props) => {
   } = props;
 
   const [locked, setLocked] = useState(false);
+
+  const refNextButton = useRef();
 
   const [selectedAnswer, setSelectedAnswer] = useState({
     index: null,
@@ -34,6 +36,8 @@ const Question = (props) => {
       index: index,
       good: good
     });
+
+    refNextButton.current.focus()
   }
 
   return (
@@ -56,7 +60,7 @@ const Question = (props) => {
         })}
       </ul>
       <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
-        <button className={'default'} onClick={handleNextQuestion}>
+        <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
           {
             lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
           }
