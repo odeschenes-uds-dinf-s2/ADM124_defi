@@ -3,6 +3,8 @@
     /*background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);*/
 
     padding-top: 20rem;
+
+    animation: show 2s linear;
 }
 
 .home-title {
@@ -15,8 +17,17 @@
     width: 80%;
 }
 
-.home-links > div {
+.home-links > a {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    @apply text-white p-2 rounded-md hover:cursor-pointer;
+    @apply text-white p-2 rounded-md hover:cursor-pointer hover:scale-105;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

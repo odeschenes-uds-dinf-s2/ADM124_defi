@@ -1,8 +1,15 @@
 .navigation {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     @apply text-xl;
+    color: #202124;
 }
 
 .navigation a[aria-current="page"] {
-   /* @apply text-udes-100*/
+    @apply text-udes-100
+}
+
+.navigation a:hover,
+.navigation a[aria-current="page"]{
+    font-weight: 500;
 }

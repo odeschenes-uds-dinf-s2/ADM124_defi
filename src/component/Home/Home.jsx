@@ -10,15 +10,15 @@ export function Home() {
         <div className={'flex flex-col'}>
           <div>
             <h1 className={'home-title'}>
-              Le Transfert<br />de Connaissance
+              Le Transfert<br />de Connaissances
             </h1>
           </div>
           <div>
             Par Olivier Deschênes, Noemie Dallaire-Nicholas, Olivier Mailhot <br />et Jean-Sébastion Paquette
           </div>
           <div className={'home-links flex mt-5 justify-center space-x-5'}>
-            <div className={'bg-blue-500'}><Link to={'/informations'} >Informations</Link></div>
-            <div className={'bg-udes-100 text-white'}><Link to={'/questionnaire'}>Questionnaire</Link></div>
+            <Link className={'bg-blue-500'} to={'/informations'} >Informations</Link>
+            <Link className={'bg-udes-100'} to={'/questionnaire'}>Questionnaire</Link>
           </div>
         </div>
         <div>
