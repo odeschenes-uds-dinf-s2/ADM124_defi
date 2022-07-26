@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import {Navigation} from "./component/Navigation/Navigation";
 import {Route, Routes} from "react-router";
 import {Questions} from "./component/Questions/Questions";
