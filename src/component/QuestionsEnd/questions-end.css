@@ -6,3 +6,7 @@
 .questions-end {
     margin-top: 20vh;
 }
+
+.questions-end h1 {
+    font-weight: 500;
+}

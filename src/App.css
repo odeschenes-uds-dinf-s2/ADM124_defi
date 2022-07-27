@@ -29,8 +29,6 @@
 }
 
 body {
-    //background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-    //background-color: #FFFDFA;
     background-color: rgba(230, 243, 237, 0.84);
 }
 
@@ -44,37 +42,37 @@ body {
     scroll-snap-type: y mandatory;
 }
 
-.scoreboard {
-    position: fixed;
-    bottom: calc(var(--reason-height) + 1rem);
-    right: 2rem;
-}
-
 .scoreboard li {
     list-style: none;
     position: relative;
 }
 
-.scoreboard li:after {
+.scoreboard li:before {
     font-family: "Font Awesome 5 Free", serif;
     font-weight: 900;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     content: '';
-    left: -1.5rem;
+    margin-right: 0.75rem;
 }
 
-.scoreboard li.good:after {
+.scoreboard li.good:before {
     color: var(--good);
     content: var(--icon-good);
 }
 
-.scoreboard li.bad:after {
+.scoreboard li.bad:before {
     color: var(--bad);
     content: var(--icon-bad);
 }
 
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #FAFAFA;
+    background-color: var(--udes-color);
+    margin: 0 var(--navigation-margin);
+    @apply p-3 text-center rounded-xl;
+}
 
 button.default {
     background-color: var(--udes-color);

@@ -1,0 +1,52 @@
+.information {
+    padding: var(--navigation-margin);
+    padding-top: 0;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    height: var(--body-height);
+}
+
+.information article {
+    --top-margin: 7rem;
+    width: min(1000px, 100vw);
+    min-height: calc(var(--body-height));
+    scroll-snap-align: start;
+}
+
+.information article iframe,
+.information article img {
+    @apply w-2/3;
+    height: 20rem;
+    padding-bottom: var(--navigation-margin);
+}
+
+.information article header {
+    margin: 0;
+    @apply rounded-b-none;
+}
+
+.information article {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.information article > div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10rem;
+    @apply rounded-b-xl space-y-6;
+}
+
+.information article section p {
+    text-align: justify;
+}
+
+.information article section {
+    @apply px-6;
+}
+
+.information article section:last-of-type {
+    @apply pb-6;
+}

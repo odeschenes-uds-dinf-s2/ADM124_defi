@@ -1,7 +1,7 @@
 import * as React from 'react';
 import QuestionsData from '../../questions.json';
 import Question from "../../component/Question/Question";
-import {useRef, useEffect, useState, useCallback} from "react";
+import {useRef, useEffect, useState} from "react";
 import {QuestionsEnd} from "../QuestionsEnd/QuestionsEnd";
 
 export function Questions() {

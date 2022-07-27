@@ -1,6 +1,5 @@
 import React, {useRef, useState} from 'react';
 import './Question.css';
-import TestImg from './test.svg';
 
 const Question = (props) => {
   const {
@@ -43,7 +42,7 @@ const Question = (props) => {
 
   return (
     <section className={'question flex justify-between'} ref={innerRef} id={'question-' + index}>
-      <header className={'p-3 text-center rounded-xl'}>
+      <header>
         {question.question}
       </header>
       <div className={'question-body'}>

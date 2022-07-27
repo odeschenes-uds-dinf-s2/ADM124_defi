@@ -7,7 +7,9 @@
     margin: var(--navigation-margin);
 }
 
-.navigation a[aria-current="page"] {
+.navigation a[aria-current="page"],
+.navigation a:hover
+{
     @apply text-udes-100
 }
 

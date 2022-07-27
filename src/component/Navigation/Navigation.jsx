@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './navigation.css';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 export function Navigation() {
   return (
@@ -8,7 +8,7 @@ export function Navigation() {
       <div className={'flex mr-auto'}>
         <div>
           <NavLink to={'/'}>
-            Transfert de connaissance
+            Transfert de connaissances
           </NavLink>
         </div>
       </div>
