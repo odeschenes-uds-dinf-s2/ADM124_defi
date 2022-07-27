@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './navigation.css';
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 export function Navigation() {
   return (

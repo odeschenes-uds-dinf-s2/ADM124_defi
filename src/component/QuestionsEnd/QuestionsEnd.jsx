@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {useCallback, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import './questions-end.css';
 import {Link} from "react-router-dom";
 
