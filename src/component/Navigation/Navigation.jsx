@@ -8,7 +8,12 @@ export function Navigation() {
       <div className={'flex mr-auto'}>
         <div>
           <NavLink to={'/'}>
-            Transfert de connaissances
+            <span className={'hidden sm:inline'}>
+              Transfert de connaissances
+            </span>
+            <span className={'visible sm:hidden'}>
+              <i className="fa-solid fa-house"></i>
+            </span>
           </NavLink>
         </div>
       </div>
@@ -18,12 +23,22 @@ export function Navigation() {
             NavLink
             to={'/informations'}
           >
-            Informations
+             <span className={'hidden sm:inline'}>
+              Informations
+            </span>
+            <span className={'visible sm:hidden'}>
+              <i className="fa-solid fa-circle-info"></i>
+            </span>
           </NavLink>
         </div>
         <div>
           <NavLink to={'/questionnaire'}>
-            Questionnaire
+            <span className={'hidden sm:inline'}>
+              Questionnaire
+            </span>
+            <span className={'visible sm:hidden'}>
+              <i className="fa-solid fa-list"></i>
+            </span>
           </NavLink>
         </div>
       </div>

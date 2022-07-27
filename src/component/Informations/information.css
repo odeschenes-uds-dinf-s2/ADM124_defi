@@ -1,22 +1,21 @@
 .information {
     padding: var(--navigation-margin);
     padding-top: 0;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
     height: var(--body-height);
+    @apply snap-none sm:snap-y snap-mandatory  sm:overflow-y-auto space-y-7;
 }
 
 .information article {
     --top-margin: 7rem;
-    width: min(1000px, 100vw);
+    width: min(1000px, 95vw);
     min-height: calc(var(--body-height));
-    scroll-snap-align: start;
+
+    @apply snap-none sm:snap-start;
 }
 
 .information article iframe,
 .information article img {
-    @apply w-2/3;
-    height: 20rem;
+    @apply w-2/3 sm:w-full h-10rem sm:h-20rem;
     padding-bottom: var(--navigation-margin);
 }
 
@@ -35,8 +34,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-top: 10rem;
-    @apply rounded-b-xl space-y-6;
+    @apply rounded-xl space-y-6 sm:mt-10rem;
 }
 
 .information article section p {

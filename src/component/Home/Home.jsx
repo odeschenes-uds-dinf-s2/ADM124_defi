@@ -5,9 +5,9 @@ import {Link} from "react-router-dom";
 
 export function Home() {
   return (
-    <div className={'home flex justify-center'}>
-      <div className={'flex justify-center space-x-10'}>
-        <div className={'flex flex-col'}>
+    <div className={'home flex justify-center pt-5rem sm:pt-20rem items-start'}>
+      <div className={'flex space-x-10 flex-col-reverse sm:flex-row'}>
+        <div className={'flex flex-col p-5 sm:p-0'}>
           <div>
             <h1 className={'home-title'}>
               Le Transfert<br />de Connaissance

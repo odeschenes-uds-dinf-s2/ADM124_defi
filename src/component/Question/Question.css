@@ -12,9 +12,9 @@
 .questions-list:before {
     content: "";
     position: absolute;
-    height: calc(100% - var(--question-h) - 0.125rem);
+    height: calc(100% - var(--question-h) + 0.125rem);
     width: 0.125rem;
-    left: -1rem;
+    left: -1.125rem;
     background-color: var(--udes-color);
     top: 50%;
     transform: translateY(-50%);
@@ -42,7 +42,9 @@ section.question li {
     padding-right: 1rem;
     transition: border-color 0.2s ease-in-out;
     background-color: white;
-    width: 50rem;
+    width: min(50rem, 90vw);
+
+    @apply text-base sm:text-xl
 }
 
 section.question li:before {
@@ -110,7 +112,7 @@ section.question li.selected.bad {
     background-color: #F0F0F0;
     height: var(--reason-height);
     border-top: 2px solid #eee;
-    font-size: 1.5rem;
+    @apply text-xl sm:text-2xl;
 }
 
 .reason.good {
