@@ -19,6 +19,8 @@
     --icon-bad: "\f057";
 
     --navigation-height: 5vh;
+    --navigation-margin: 1rem;
+    --body-height: calc(100vh - (var(--navigation-height) + var(--navigation-margin) * 2));
 }
 
 * {
@@ -27,7 +29,9 @@
 }
 
 body {
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    //background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    //background-color: #FFFDFA;
+    background-color: rgba(230, 243, 237, 0.84);
 }
 
 .navigation {
@@ -35,8 +39,8 @@ body {
 }
 
 .app {
-    height: calc(100vh - var(--navigation-height));
-    overflow-y: scroll;
+    height: var(--body-height);
+    overflow-y: hidden;
     scroll-snap-type: y mandatory;
 }
 
@@ -96,4 +100,10 @@ button.default:after {
 
 button.default:hover {
     cursor: pointer;
+}
+
+.link {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    @apply text-white p-2 rounded-md hover:cursor-pointer hover:scale-105 hover:opacity-90;
 }

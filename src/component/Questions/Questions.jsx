@@ -2,54 +2,53 @@ import * as React from 'react';
 import QuestionsData from '../../questions.json';
 import Question from "../../component/Question/Question";
 import {useRef, useEffect, useState, useCallback} from "react";
+import {QuestionsEnd} from "../QuestionsEnd/QuestionsEnd";
 
 export function Questions() {
   const [answered, setAnswered] = useState([]);
-  const [won, setWon] = useState(false);
+  const [end, setEnd] = useState(false);
   const refs = useRef([])
 
-  const handleAnswer = (index) => {
-    if (answered.find((item) => item.index === index.index) !== undefined) {
+  const handleAnswer = ({index, good}) => {
+    if (answered.find((item) => item.index === index) !== undefined) {
       return
     }
 
-    setAnswered((answered) => [...answered, index]);
+    if ((answered.length + 1) === QuestionsData.length) {
+      setEnd(true);
+    }
 
-    if (index.index !== Questions.length - 1) {
-      refs.current[index.index + 1].scrollIntoView({behavior: 'smooth'})
+    setAnswered((answered) => [...answered, {index, good}]);
+
+    if (index !== QuestionsData.length - 1) {
+      refs.current[index + 1].scrollIntoView({behavior: 'smooth'})
     }
   }
 
-  const handleWin = useCallback(() => {
-    setWon(true);
-    console.log(won)
-  }, [won])
-
   useEffect(() => {
-    refs.current = refs.current.slice(0, Questions.length)
+    refs.current = refs.current.slice(0, QuestionsData.length)
   }, [])
 
-  useEffect(() => {
-    if (answered.length === Questions.length) {
-      handleWin();
-    }
-  }, [answered, handleWin]);
+
   return (
-    <div className={'app'}>
+    <div>
       {
-        QuestionsData.map((question, index) => {
-          return <Question
-            innerRef={(el) => {
-              refs.current[index] = el
-            }}
-            key={index}
-            question={question}
-            callback={handleAnswer}
-            index={index}
-            reason={question.reason}
-            lastQuestion={index === Questions.length - 1}
-          />
-        })
+        end ? <QuestionsEnd answers={answered} questions={QuestionsData}/> :
+          <div className={'app'}>
+            {QuestionsData.map((question, index) => {
+              return <Question
+                innerRef={(el) => {
+                  refs.current[index] = el
+                }}
+                key={index}
+                question={question}
+                callback={handleAnswer}
+                index={index}
+                reason={question.reason}
+                lastQuestion={index === QuestionsData.length - 1}
+              />
+            })}
+          </div>
       }
     </div>
   );
