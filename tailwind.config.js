@@ -9,8 +9,12 @@ module.exports = {
         udes: {
           100: "#018849",
         }
+      },
+      spacing: {
+        "5rem": "5rem",
+        "10rem": "10rem",
+        "20rem": "20rem"
       }
-
     },
   },
   plugins: [],

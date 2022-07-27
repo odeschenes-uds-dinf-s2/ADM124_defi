@@ -5,6 +5,11 @@
     color: #434343;
     background: white;
     margin: var(--navigation-margin);
+    margin-bottom: 0;
+}
+
+.navigation + * {
+    margin-top: var(--navigation-margin);
 }
 
 .navigation a[aria-current="page"],

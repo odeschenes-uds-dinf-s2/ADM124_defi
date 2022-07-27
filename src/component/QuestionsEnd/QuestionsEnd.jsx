@@ -11,10 +11,10 @@ export function QuestionsEnd({answers, questions}) {
   }, [answers, questions])
 
   return (
-    <div className={'questions-end-container flex flex-col items-center'}>
+    <div className={'questions-end-container flex flex-col items-center justify-center'}>
       <div className={'questions-end space-y-6 p-12 rounded-xl bg-white w-fit'}>
         <div>
-          <h1 className={'text-udes-100 text-6xl'}>Vos résultats</h1>
+          <h1 className={'text-udes-100 text-5xl sm:text-7xl'}>Vos résultats</h1>
         </div>
         <div className={'scoreboard'}>
           <ul className={'flex flex-col space-y-2'}>

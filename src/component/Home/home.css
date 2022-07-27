@@ -1,33 +1,26 @@
 .home {
     height: var(--body-height);
-    /*background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);*/
+    opacity: 1;
+    animation-name: show;
+    animation-duration: 2s;
+    @apply pt-0 pt-5rem sm:pt-20rem justify-center;
+}
 
-    padding-top: 20rem;
-
-    animation: show 2s linear;
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .home-title {
-    @apply text-8xl;
+    @apply text-2xl sm:text-8xl;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
 .home-img {
     width: 80%;
-}
-
-.home-links > a {
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    @apply text-white p-2 rounded-md hover:cursor-pointer hover:scale-105;
-}
-
-@keyframes show {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }

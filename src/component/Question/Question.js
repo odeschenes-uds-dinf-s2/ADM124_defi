@@ -41,15 +41,12 @@ const Question = (props) => {
   }
 
   return (
-    <section className={'question flex justify-between'} ref={innerRef} id={'question-' + index}>
+    <section className={'question flex justify-start'} ref={innerRef} id={'question-' + index}>
       <header>
         {question.question}
       </header>
-      <div className={'question-body'}>
-        <div className={'questions-container flex items-center justify-center space-x-12'}>
-          {/*<div>
-          <img src={TestImg} alt=""/>
-        </div>*/}
+      <div className={'question-body flex flex-col h-full justify-between'}>
+        <div className={'questions-container flex items-center justify-center flex-col h-full'}>
           <div className={'flex w-fit'}>
             <ul className={`questions-list`}>
               {question.choices.map((choice, i) => {
@@ -66,20 +63,18 @@ const Question = (props) => {
               })}
             </ul>
           </div>
+          <div className={'flex justify-center mt-5'} style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
+            <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
+              {
+                lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
+              }
+            </button>
+          </div>
         </div>
-        <div className={'flex justify-center mt-5'} style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
-          <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
-            {
-              lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
-            }
-          </button>
+        <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}} className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
+          {reason}
         </div>
       </div>
-      {
-          <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}} className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
-            {reason}
-          </div>
-      }
     </section>
   );
 };

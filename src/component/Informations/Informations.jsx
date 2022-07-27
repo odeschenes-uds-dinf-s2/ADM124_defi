@@ -6,7 +6,7 @@ import CommentImg from './comment.svg'
 
 export function Informations() {
   return (
-    <div className={'information flex flex-col items-center space-y-12'}>
+    <div className={'information flex flex-col items-center'}>
       <article id={'1'}>
         <div>
           <header>
@@ -15,7 +15,7 @@ export function Informations() {
           <div className={'content'}>
             <section className={'flex justify-center'}>
               <iframe
-                src="https://www.youtube-nocookie.com/embed/ENphUxkusBU?controls=0"
+                src="https://www.youtube-nocookie.com/embed/ENphUxkusBU"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
