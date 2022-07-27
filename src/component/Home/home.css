@@ -3,6 +3,7 @@
     opacity: 1;
     animation-name: show;
     animation-duration: 2s;
+    @apply pt-0 pt-5rem sm:pt-20rem justify-center;
 }
 
 @keyframes show {
@@ -22,10 +23,4 @@
 
 .home-img {
     width: 80%;
-}
-
-.home-links > div {
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    @apply text-white p-2 rounded-md hover:cursor-pointer;
 }

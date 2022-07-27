@@ -17,8 +17,8 @@ export function Home() {
             Par Olivier Deschênes, Noemie Dallaire-Nicholas, Olivier Mailhot <br />et Jean-Sébastion Paquette
           </div>
           <div className={'home-links flex mt-5 justify-center space-x-5'}>
-            <Link className={'bg-blue-500'} to={'/informations'} >Informations</Link>
-            <Link className={'bg-udes-100'} to={'/questionnaire'}>Questionnaire</Link>
+            <Link className={'bg-blue-500 link'} to={'/informations'} >Informations</Link>
+            <Link className={'bg-udes-100 link'} to={'/questionnaire'}>Questionnaire</Link>
           </div>
         </div>
         <div>
