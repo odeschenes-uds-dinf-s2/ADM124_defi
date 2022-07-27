@@ -1,0 +1,12 @@
+.questions-end-container {
+    height: var(--body-height);
+    font-family: 'Roboto', sans-serif;
+}
+
+.questions-end {
+    margin-top: 20vh;
+}
+
+.questions-end h1 {
+    font-weight: 500;
+}

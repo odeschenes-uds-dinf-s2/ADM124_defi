@@ -1,11 +1,15 @@
 .navigation {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    @apply text-xl;
-    color: #202124;
+    font-weight: 500;
+    @apply text-xl rounded-xl;
+    color: #434343;
+    background: white;
+    margin: var(--navigation-margin);
 }
 
-.navigation a[aria-current="page"] {
+.navigation a[aria-current="page"],
+.navigation a:hover
+{
     @apply text-udes-100
 }
 

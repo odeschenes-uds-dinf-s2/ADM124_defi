@@ -41,37 +41,44 @@ const Question = (props) => {
   }
 
   return (
-    <section className={'question'} ref={innerRef} id={'question-' + index}>
+    <section className={'question flex justify-between'} ref={innerRef} id={'question-' + index}>
       <header>
         {question.question}
       </header>
-      <ul className={`questions-list`}>
-        {question.choices.map((choice, i) => {
-          return <li
-            onClick={() => handleSelection(i)}
-            key={choice + "" + i}
-            className={
-              `${selectedAnswer.index === i ? "selected " : ""}` +
-              `${selectedAnswer.index === i ? selectedAnswer.good ? "good" : "bad" : ''}` +
-              `${locked ? " locked" : ""}`
-            }>
-            {choice}
-          </li>
-        })}
-      </ul>
-      <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
-        <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
-          {
-            lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
-          }
-        </button>
+      <div className={'question-body'}>
+        <div className={'questions-container flex items-center justify-center space-x-12'}>
+          {/*<div>
+          <img src={TestImg} alt=""/>
+        </div>*/}
+          <div className={'flex w-fit'}>
+            <ul className={`questions-list`}>
+              {question.choices.map((choice, i) => {
+                return <li
+                  onClick={() => handleSelection(i)}
+                  key={choice + "" + i}
+                  className={
+                    `${selectedAnswer.index === i ? "selected " : ""}` +
+                    `${selectedAnswer.index === i ? selectedAnswer.good ? "good" : "bad" : ''}` +
+                    `${locked ? " locked" : ""}`
+                  }>
+                  {choice}
+                </li>
+              })}
+            </ul>
+          </div>
+        </div>
+        <div className={'flex justify-center mt-5'} style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
+          <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
+            {
+              lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
+            }
+          </button>
+        </div>
       </div>
       {
-        selectedAnswer.index !== null ?
-          <div className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
+          <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}} className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
             {reason}
-          </div> :
-          null
+          </div>
       }
     </section>
   );

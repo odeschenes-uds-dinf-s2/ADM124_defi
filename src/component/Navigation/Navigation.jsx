@@ -8,7 +8,7 @@ export function Navigation() {
       <div className={'flex mr-auto'}>
         <div>
           <NavLink to={'/'}>
-            Transfert de connaissance
+            Transfert de connaissances
           </NavLink>
         </div>
       </div>

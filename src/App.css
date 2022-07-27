@@ -19,6 +19,8 @@
     --icon-bad: "\f057";
 
     --navigation-height: 5vh;
+    --navigation-margin: 1rem;
+    --body-height: calc(100vh - (var(--navigation-height) + var(--navigation-margin) * 2));
 }
 
 * {
@@ -27,8 +29,7 @@
 }
 
 body {
-    //background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-    background-color: #FFFDFA;
+    background-color: rgba(230, 243, 237, 0.84);
 }
 
 .navigation {
@@ -36,15 +37,9 @@ body {
 }
 
 .app {
-    height: calc(100vh - var(--navigation-height));
-    overflow-y: scroll;
+    height: var(--body-height);
+    overflow-y: hidden;
     scroll-snap-type: y mandatory;
-}
-
-.scoreboard {
-    position: fixed;
-    bottom: calc(var(--reason-height) + 1rem);
-    right: 2rem;
 }
 
 .scoreboard li {
@@ -52,26 +47,32 @@ body {
     position: relative;
 }
 
-.scoreboard li:after {
+.scoreboard li:before {
     font-family: "Font Awesome 5 Free", serif;
     font-weight: 900;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     content: '';
-    left: -1.5rem;
+    margin-right: 0.75rem;
 }
 
-.scoreboard li.good:after {
+.scoreboard li.good:before {
     color: var(--good);
     content: var(--icon-good);
 }
 
-.scoreboard li.bad:after {
+.scoreboard li.bad:before {
     color: var(--bad);
     content: var(--icon-bad);
 }
 
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #FAFAFA;
+    background-color: var(--udes-color);
+    margin: 0 var(--navigation-margin);
+    @apply p-3 text-center rounded-xl;
+}
 
 button.default {
     background-color: var(--udes-color);
@@ -97,4 +98,10 @@ button.default:after {
 
 button.default:hover {
     cursor: pointer;
+}
+
+.link {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    @apply text-white p-2 rounded-md hover:cursor-pointer hover:scale-105 hover:opacity-90;
 }
