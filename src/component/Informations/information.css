@@ -48,3 +48,27 @@
 .information article section:last-of-type {
     @apply pb-6;
 }
+
+.biblio {
+    @apply bg-gray-50 mt-6 pt-10 rounded-b-xl;
+    position: relative;
+}
+
+.biblio:before {
+    content: "Bibliographie";
+    position: absolute;
+    top: .5rem;
+    left: 2.5rem;
+
+    @apply text-xl font-bold;
+}
+
+.biblio a {
+    @apply text-udes-100 font-bold underline;
+}
+
+.biblio ul {
+    list-style: square;
+
+    @apply ml-5 space-y-1.5;
+}

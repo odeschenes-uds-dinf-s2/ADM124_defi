@@ -42,7 +42,7 @@ const Question = (props) => {
 
   return (
     <section className={'question flex justify-start'} ref={innerRef} id={'question-' + index}>
-      <header>
+      <header className={'p-10'}>
         {question.question}
       </header>
       <div className={'question-body flex flex-col h-full justify-between'}>

@@ -108,11 +108,8 @@ section.question li.selected.bad {
 .reason {
     display: flex;
     align-items: center;
-    padding-left: 1.5rem;
     background-color: #F0F0F0;
-    height: var(--reason-height);
-    border-top: 2px solid #eee;
-    @apply text-xl sm:text-2xl;
+    @apply text-xl sm:text-2xl p-10;
 }
 
 .reason.good {
