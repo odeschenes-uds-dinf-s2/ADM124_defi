@@ -38,8 +38,7 @@ body {
 
 .app {
     height: var(--body-height);
-    overflow-y: hidden;
-    scroll-snap-type: y mandatory;
+    @apply overflow-y-auto sm:overflow-y-hidden snap-none sm:snap-y snap-mandatory;
 }
 
 .scoreboard li {

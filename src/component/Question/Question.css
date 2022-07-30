@@ -1,12 +1,19 @@
 .questions-list {
-    --question-h: 5rem;
-    --question-m: 1rem;
+    --question-h: 3.5rem;
+    --question-m: 0.5rem;
 
     margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
     font-size: 1.3rem;
     position: relative;
+}
+
+@media (min-width: 640px) {
+    .questions-list {
+        --question-h: 5rem;
+        --question-m: 1rem;
+    }
 }
 
 .questions-list:before {
@@ -27,6 +34,27 @@ section.question {
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    @apply mt-5 sm:mt-0;
+}
+
+section.question header {
+    position: relative;
+
+    @apply text-lg sm:text-4xl;
+}
+
+section.question header:after {
+    position: absolute;
+    content: attr(data-section);
+    left: 0;
+    right: 0;
+    bottom: -1rem;
+    background-color: white;
+    font-weight: 500;
+    width: fit-content;
+
+    @apply p-2 text-lg rounded-xl text-udes-100 rounded-tl-none mx-auto sm:mx-0 hidden sm:block;
 }
 
 section.question li {
@@ -57,7 +85,7 @@ section.question li:before {
 }
 
 section.question li:not(:last-of-type) {
-    margin-bottom: 1rem;
+    margin-bottom: var(--question-m);
 }
 
 section.question li:after {
@@ -109,7 +137,8 @@ section.question li.selected.bad {
     display: flex;
     align-items: center;
     background-color: #F0F0F0;
-    @apply text-xl sm:text-2xl p-10;
+
+    @apply sm:text-xl sm:text-2xl p-3 sm:p-10;
 }
 
 .reason.good {

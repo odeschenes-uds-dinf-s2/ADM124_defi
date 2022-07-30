@@ -2,13 +2,14 @@
   {
     "question": "Quel pourrait être un impact positif d’un bon processus de transfert de connaissances dans une entreprise ?",
     "choices": [
-      "Identifier les goulots d’étranglement à court terme dans une entreprise",
-      "Contribuer à une meilleure santé organisationnelle",
-      "Offrir des produits de plus haute qualité aux clients",
-      "Enrayer les inégalités sociales dans l’entreprise"
+      "Identifier les goulots d’étranglement à court terme",
+      "Meilleure santé organisationnelle",
+      "Offrir des produits de plus haute qualité",
+      "Enrayer les inégalités sociales"
     ],
     "answer": 1,
-    "reason": "En effet, il est nécessaire pour la santé de l’organisation d’assurer un transfert communicationnel efficace et ouvert. Le transfert de connaissances permet d’enrayer les goulots d’étranglement à long terme, où ils peuvent poser le plus de problèmes"
+    "reason": "En effet, il est nécessaire pour la santé de l’organisation d’assurer un transfert communicationnel efficace et ouvert. Le transfert de connaissances permet d’enrayer les goulots d’étranglement à long terme, où ils peuvent poser le plus de problèmes",
+    "section": "Partie 1 : Qu'est-ce que c'est ?"
   },
   {
     "question": "Le transfert de connaissances doit se faire à petite échelle, et être au cœur des tâches quotidiennes des employés de l’entreprise pour être pertinent ?",
@@ -17,19 +18,21 @@
       "Faux"
     ],
     "answer": 1,
-    "reason": "À petite échelle, le transfert de connaissance peut en effet s’observer au quotidien au travers de conversations, de projets, d’enjeux entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. Cependant, à plus grande échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances lors d’événements comme des fusions ou des acquisitions d’entreprises, événements qui ne sauraient être qualifiés de tâches quotidiennes. On retrouve donc le transfert de connaissances à tous niveaux d’une organisation"
+    "reason": "À petite échelle, le transfert de connaissance peut en effet s’observer au quotidien au travers de conversations, de projets, d’enjeux entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. Cependant, à plus grande échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances lors d’événements comme des fusions ou des acquisitions d’entreprises, événements qui ne sauraient être qualifiés de tâches quotidiennes. On retrouve donc le transfert de connaissances à tous niveaux d’une organisation",
+    "section": "Partie 1 : Qu'est-ce que c'est ?"
   },
   {
     "question": "Comment un mauvais transfert des connaissances pourrait nuire à une organisation ?",
     "choices": [
-      "Empêcher la réalisation de la mission de l’entreprise",
+      "Empêcher la réalisation de la mission",
       "Diminuer la productivité des employés",
-      "Empêcher la pleine exploitation des ressources de l’entreprise",
-      "Causer une perte financière à l’entreprise",
-      "Faire manquer une opportunité d’affaire",
+      "Empêcher la pleine exploitation des ressources",
+      "Perte financière",
+      "Manquer une opportunité d’affaire",
       "Toutes ces réponses"
     ],
     "answer": 5,
-    "reason": "Les connaissances sont un enjeu pour les organisations au même titre que les ressources humaines, matérielles et financières : elles contribuent à réaliser la mission de l’organisation.Il est essentiel de savoir qui sait quoi, qui a besoin de savoir quoi et comment transférer ces connaissances, surtout lorsque la valeur d'une entreprise est constituée en grande partie d'informations. Ne pas être à l’affût des nouvelles connaissances et ne pas les utiliser équivaut souvent à une perte financière de par le manque d’optimisation de l’utilisation des ressources de l’entreprise. De plus, un bon processus de transfert des connaissances contribue grandement à la performance et productivité de l’organisation et de ses employés."
+    "reason": "Les connaissances sont un enjeu pour les organisations au même titre que les ressources humaines, matérielles et financières : elles contribuent à réaliser la mission de l’organisation.Il est essentiel de savoir qui sait quoi, qui a besoin de savoir quoi et comment transférer ces connaissances, surtout lorsque la valeur d'une entreprise est constituée en grande partie d'informations. Ne pas être à l’affût des nouvelles connaissances et ne pas les utiliser équivaut souvent à une perte financière de par le manque d’optimisation de l’utilisation des ressources de l’entreprise. De plus, un bon processus de transfert des connaissances contribue grandement à la performance et productivité de l’organisation et de ses employés.",
+    "section": "Partie 1 : Qu'est-ce que c'est ?"
   }
 ]

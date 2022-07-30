@@ -42,7 +42,7 @@ const Question = (props) => {
 
   return (
     <section className={'question flex justify-start'} ref={innerRef} id={'question-' + index}>
-      <header className={'p-10'}>
+      <header className={'sm:p-10'} data-section={question.section}>
         {question.question}
       </header>
       <div className={'question-body flex flex-col h-full justify-between'}>
@@ -63,15 +63,19 @@ const Question = (props) => {
               })}
             </ul>
           </div>
-          <div className={'flex justify-center mt-5'} style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
+          <div className={'flex justify-center mt-2 sm:mt-5'}
+               style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}>
             <button className={'default'} onClick={handleNextQuestion} ref={refNextButton}>
+              <span className={''}>
               {
                 lastQuestion ? 'Finir le questionnaire' : 'Prochaine question'
               }
+              </span>
             </button>
           </div>
         </div>
-        <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}} className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
+        <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}
+             className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
           {reason}
         </div>
       </div>
