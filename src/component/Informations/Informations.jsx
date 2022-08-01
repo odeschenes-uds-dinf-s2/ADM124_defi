@@ -169,6 +169,7 @@ export function Informations() {
               d’utilisation, de translation ou de transmission de connaissances.
               
             </p>
+            <br/>
             <p>
               Le transfert de connnaissances peut prendre plusieurs formes selon la logique d’action de l’organisation.
               En effet, dans une organisation ayant une logique d’action charismatique, celui-ci va prendre la forme 
