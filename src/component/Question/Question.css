@@ -28,7 +28,7 @@
 }
 
 section.question {
-    height: var(--body-height);
+    min-height: var(--body-height);
     position: relative;
     scroll-snap-align: center;
     display: flex;
@@ -36,6 +36,12 @@ section.question {
     width: 100%;
 
     @apply mt-5 sm:mt-0;
+}
+
+@media (min-width: 640px) {
+    section.question {
+        height: var(--body-height);
+    }
 }
 
 section.question header {
