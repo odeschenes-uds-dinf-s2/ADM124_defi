@@ -100,7 +100,8 @@ section.question li:not(.good):not(.bad):not(.locked):hover:after {
     content: '\f192';
 }
 
-section.question li.good:after {
+section.question li.good:after,
+section.question li.answer:after {
     content: var(--icon-good);
     color: inherit;
 }
@@ -123,8 +124,18 @@ section.question li.selected:not(.locked) {
 
 section.question li.selected.good {
     border-color: var(--border-color-good);
-    color: var(--good);
     background-color: var(--bc-color--good);
+}
+
+section.question li.selected.good,
+section.question li.answer {
+    color: var(--good);
+}
+
+section.question li.answer:not(.good) {
+    border-color: var(--border-color-yellow);
+    color: var(--yellow);
+    background-color: var(--bc-color-yellow);
 }
 
 section.question li.selected.bad {
@@ -138,7 +149,7 @@ section.question li.selected.bad {
     align-items: center;
     background-color: #F0F0F0;
 
-    @apply sm:text-xl sm:text-2xl p-3 sm:p-10;
+    @apply sm:text-xl sm:text-xl p-3 sm:p-5;
 }
 
 .reason.good {

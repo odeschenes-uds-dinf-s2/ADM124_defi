@@ -56,7 +56,8 @@ const Question = (props) => {
                   className={
                     `${selectedAnswer.index === i ? "selected " : ""}` +
                     `${selectedAnswer.index === i ? selectedAnswer.good ? "good" : "bad" : ''}` +
-                    `${locked ? " locked" : ""}`
+                    `${locked ? " locked " : ""}` +
+                    `${locked && i === question.answer ? "answer" : ""}`
                   }>
                   {choice}
                 </li>
