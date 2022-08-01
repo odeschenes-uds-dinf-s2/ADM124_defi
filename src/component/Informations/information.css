@@ -9,7 +9,6 @@
     --top-margin: 7rem;
     width: min(1000px, 95vw);
     min-height: calc(var(--body-height));
-
     @apply snap-none sm:snap-start;
 }
 
@@ -47,20 +46,6 @@
 
 .information article section:last-of-type {
     @apply pb-6;
-}
-
-.biblio {
-    @apply bg-gray-50 mt-6 pt-10 rounded-b-xl;
-    position: relative;
-}
-
-.biblio:before {
-    content: "Bibliographie";
-    position: absolute;
-    top: .5rem;
-    left: 2.5rem;
-
-    @apply text-xl font-bold;
 }
 
 .biblio a {

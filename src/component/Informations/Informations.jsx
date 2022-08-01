@@ -63,7 +63,7 @@ export function Informations() {
                 échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances
                 lors d’événements comme des fusions ou des acquisitions d’entreprises où le transfert est vital à la
                 prospérité future et la santé organisationnelle de l’entreprise.
-              </p>
+              </p><br/>
               <p>
                 Les connaissances sont un enjeu pour les organisations au même titre que les ressources humaines,
                 matérielles et financières : elles contribuent à réaliser la mission de l’organisation.Il est essentiel
@@ -71,27 +71,13 @@ export function Informations() {
                 lorsque la valeur d'une entreprise est constituée en grande partie d'informations. Ne pas être à l’affût
                 des nouvelles connaissances et ne pas les utiliser équivaut souvent à une perte financière de par le
                 manque d’optimisation de l’utilisation des ressources de l’entreprise.
-              </p>
+              </p><br/>
               <p>
                 De plus, un bon processus de transfert des connaissances contribue grandement à la performance et
                 productivité de l’organisation et de ses employés.
               </p>
             </section>
-            <section className={'biblio'}>
-              <ul>
-                <li>S.A. «Knowledge transfer», peopleHum, s.d., en ligne : <a
-                  href="https://www.peoplehum.com/glossary/knowledge-transfer">Lien</a> (Consulté le 29 juillet 2022)
-                </li>
-                <li>PRESSEAU, Annie et Marianne FRENAY. «Le transfert des apprentissages Comprendre pour mieux
-                  intervenir», 2004, p.7-48.
-                </li>
-                <li>CANCIALOSI, Chris. «6 Key Steps to Influencing Effective Knowledge Transfer in Your Business»,
-                  Forbes, 8 décembre 2014, en ligne : <a
-                    href="https://www.forbes.com/sites/chriscancialosi/2014/12/08/6-key-steps-to-influencing-effective-knowledge-transfer-in-your-business/?sh=6eebf7585fe6">Lien</a> (Consulté
-                  le 29 juillet 2022).
-                </li>
-              </ul>
-            </section>
+            
           </div>
         </div>
       </article>
@@ -161,6 +147,59 @@ export function Informations() {
           </div>
         </div>
       </article>
+      <article id={'5'} className={'biblio'}>
+        <div>
+          <header>
+            Bibliographie
+          </header>
+          <div className={'content'}>
+            <section className={'flex justify-center'}>
+              <img src={CommentImg} alt=""/>
+            </section>
+            <section>
+              <b>Qu’est-ce que c’est?</b>
+              <ul>
+                <li> : <a
+                  href="x">Lien</a>
+                </li>
+              </ul>
+
+              <br/>
+              <b>En quoi c’est un enjeu ?</b>
+              <ul>
+                <li>S.A. «Knowledge transfer», peopleHum, s.d., en ligne : <a
+                  href="https://www.peoplehum.com/glossary/knowledge-transfer">Lien</a> (Consulté le 29 juillet 2022)
+                </li>
+                <li>PRESSEAU, Annie et Marianne FRENAY. «Le transfert des apprentissages Comprendre pour mieux
+                  intervenir», 2004, p.7-48.
+                </li>
+                <li>CANCIALOSI, Chris. «6 Key Steps to Influencing Effective Knowledge Transfer in Your Business»,
+                  Forbes, 8 décembre 2014, en ligne : <a
+                    href="https://www.forbes.com/sites/chriscancialosi/2014/12/08/6-key-steps-to-influencing-effective-knowledge-transfer-in-your-business/?sh=6eebf7585fe6">Lien</a> (Consulté
+                  le 29 juillet 2022).
+                </li>
+              </ul>
+
+              <br/>
+              <b>Pourquoi le faire?</b>
+              <ul>
+                <li>DEMERS, Marie. «S’investir en transfert DE CONNAISSANCES», Québec en forme, été 2013 : <a
+                  href="https://bel.uqtr.ca/id/eprint/1903/1/Transfert_de_connaissances.pdf">Lien</a>
+                </li>
+              </ul>
+
+              <br/>
+              <b>Comment le faire?</b>
+              <ul>
+                <li> : <a
+                  href="x">Lien</a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+
     </div>
   );
 };
