@@ -216,9 +216,11 @@ export function Informations() {
             <br/>
             <b>Comment le faire?</b>
             <ul>
-              <li> : <a
-                href="x">Lien</a>
+              <li>LEMIRE, Nicole, Karine SOUFFEZ et Marie-Claire LAURENDEAU. «Animer un processus de transfert des connaissances : bilan des connaissances et outil d’animation», INSPQ, octobre 2009 : <a
+                href="https://www.inspq.qc.ca/institut/transfert-des-connaissances/animer-un-processus-de-transfert-des-connaissances#:~:text=Le%20transfert%20des%20connaissances%20est,l'appropriation%20de%20nouvelles%20connaissances.">Lien</a>
               </li>
+              <li> «Transfert de connaissances», Wikipédia, 23 juillet 2022 : <a
+                href="https://fr.wikipedia.org/wiki/Transfert_de_connaissances">Lien</a>
             </ul>
           </section>
         </div>
