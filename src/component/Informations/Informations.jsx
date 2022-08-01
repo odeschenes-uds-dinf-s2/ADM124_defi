@@ -77,7 +77,7 @@ export function Informations() {
                 productivité de l’organisation et de ses employés.
               </p>
             </section>
-            
+
           </div>
         </div>
       </article>
@@ -199,7 +199,6 @@ export function Informations() {
           </div>
         </div>
       </article>
-
     </div>
   );
 };

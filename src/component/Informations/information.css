@@ -1,15 +1,10 @@
 .information {
     padding: var(--navigation-margin);
     padding-top: 0;
-    height: var(--body-height);
-    @apply snap-none sm:snap-y snap-mandatory  sm:overflow-y-auto space-y-7;
 }
 
 .information article {
-    --top-margin: 7rem;
-    width: min(1000px, 95vw);
-    min-height: calc(var(--body-height));
-    @apply snap-none sm:snap-start;
+    width: 100%;
 }
 
 .information article iframe,
@@ -18,9 +13,18 @@
     padding-bottom: var(--navigation-margin);
 }
 
+.information article .content {
+    width: min(1000px, 95vw);
+}
+
 .information article header {
     margin: 0;
-    @apply rounded-b-none;
+    width: 100%;
+    @apply p-12 m-12;
+}
+
+.information article:first-of-type header {
+    @apply mt-0;
 }
 
 .information article {
@@ -30,10 +34,8 @@
 }
 
 .information article > div {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    @apply rounded-xl space-y-6 sm:mt-10rem;
+    width: 100%;
+    @apply rounded-xl space-y-6 flex justify-center flex-col items-center;
 }
 
 .information article section p {

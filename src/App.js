@@ -7,11 +7,6 @@ import {Informations} from "./component/Informations/Informations";
 import {Home} from "./component/Home/Home";
 
 function App() {
-
- /* if (won) {
-    return <div>You won!</div>
-  }*/
-
   return (
     <div>
       <Navigation />
