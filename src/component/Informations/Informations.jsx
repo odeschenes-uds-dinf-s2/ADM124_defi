@@ -66,7 +66,7 @@ export function Informations() {
               nécessaire
               pour la santé de l’organisation d’assurer un transfert communicationnel efficace et ouvert. À
               petite
-              échelle, le transfert de connaissance peut s’observer au travers de conversations, de projets,
+              échelle, le transfert de connaissances peut s’observer au travers de conversations, de projets,
               d’enjeux
               entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. À plus
               grande

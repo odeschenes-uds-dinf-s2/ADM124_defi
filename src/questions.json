@@ -8,7 +8,7 @@
       "Aucune des ses réponses"
     ],
     "answer": 0,
-    "reason": "En effet, le transfert de connaissance vise surtout à améliorer le processus du transfert de savoir-faire entre différents secteurs.",
+    "reason": "En effet, le transfert de connaissances vise surtout à améliorer le processus du transfert de savoir-faire entre différents secteurs.",
     "section": "Partie 1 : Qu'est-ce que c'est ?"
   },
   {
@@ -30,7 +30,7 @@
       "Faux"
     ],
     "answer": 1,
-    "reason": "À petite échelle, le transfert de connaissance peut en effet s’observer au quotidien au travers de conversations, de projets, d’enjeux entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. Cependant, à plus grande échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances lors d’événements comme des fusions ou des acquisitions d’entreprises, événements qui ne sauraient être qualifiés de tâches quotidiennes. On retrouve donc le transfert de connaissances à tous niveaux d’une organisation",
+    "reason": "À petite échelle, le transfert de connaissances peut en effet s’observer au quotidien au travers de conversations, de projets, d’enjeux entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. Cependant, à plus grande échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances lors d’événements comme des fusions ou des acquisitions d’entreprises, événements qui ne sauraient être qualifiés de tâches quotidiennes. On retrouve donc le transfert de connaissances à tous niveaux d’une organisation",
     "section": "Partie 2 : En quoi est-ce un enjeu ?"
   },
   {
@@ -48,7 +48,7 @@
     "section": "Partie 2 : En quoi est-ce un enjeu ?"
   },
   {
-    "question": "Quel est l'objectif principal du transfert de connaissance ?",
+    "question": "Quel est l'objectif principal du transfert de connaissances ?",
     "choices": [
       "Faire progresser les carrières des employés plus rapidement",
       "Réduire le fossé qui existe entre les connaissances et la pratique",
@@ -72,7 +72,7 @@
     "section": "Partie 3 : Pourquoi le faire ?"
   },
   {
-    "question": "Laquelle de ces pratiques n'est pas utilisée dans le cadre d'un transfert de connaissance ?",
+    "question": "Laquelle de ces pratiques n'est pas utilisée dans le cadre d'un transfert de connaissances ?",
     "choices": [
       "Mentorat",
       "Expérience guidée",
@@ -104,7 +104,7 @@
       "Transfert narratif"
     ],
     "answer": 1,
-    "reason": "Le transfert de connaissance prend souvent la forme de vidéos explicatives dans une organisation ayant une logique d'action formelle.",
+    "reason": "Le transfert de connaissances prend souvent la forme de vidéos explicatives dans une organisation ayant une logique d'action formelle.",
     "section": "Partie 4 : Comment le faire ?"
   }
 ]
