@@ -221,6 +221,7 @@ export function Informations() {
               </li>
               <li> «Transfert de connaissances», Wikipédia, 23 juillet 2022 : <a
                 href="https://fr.wikipedia.org/wiki/Transfert_de_connaissances">Lien</a>
+              </li>
             </ul>
           </section>
         </div>
