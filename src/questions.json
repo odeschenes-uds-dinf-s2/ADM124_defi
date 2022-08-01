@@ -38,13 +38,13 @@
   {
     "question": "Laquelle de ces pratiques n'est pas utilisée dans le cadre d'un transfert de connaissance ?",
     "choices": [
-		  "Mentorat",
-		  "Expérience guidée",
-		  "Réunions trimestrielles",
-		  "Transfert narratif"
-	  ],
+    "Mentorat",
+    "Expérience guidée",
+    "Réunions trimestrielles",
+    "Transfert narratif"
+    ],
     "answer": 2,
-	  "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace."
-	  "section": "Partie 3 : Comment le faire ?"
+    "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace."
+    "section": "Partie 3 : Comment le faire ?"
   }
 ]
