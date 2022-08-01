@@ -44,7 +44,19 @@
       "Transfert narratif"
     ],
     "answer": 2,
-    "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace."
+    "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace.",
     "section": "Partie 3 : Comment le faire ?"
-  }
+  },
+  {
+    "question": "Laquelle de ces étapes ne fait pas partie du processus de transfert de connaissances ?"
+    "choices": [
+      "Valorisation du savoir",
+      "Appropriation des connaissances",
+      "Diffusion des connaissances",
+      "Production d’un contenu"
+    ],
+    "answer": 0,
+    "reason": "La valorisation du savoir n'a pas rapport dans le processus de transfert de connaissances.",
+    "section": "Partie 3 : Comment le faire ?"
+}
 ]
