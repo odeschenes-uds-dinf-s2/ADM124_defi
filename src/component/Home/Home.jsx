@@ -10,7 +10,7 @@ export function Home() {
         <div className={'flex flex-col p-5 sm:p-0'}>
           <div>
             <h1 className={'home-title'}>
-              Le Transfert<br />de Connaissances
+              Le Transfert<br />de connaissances
             </h1>
           </div>
           <div>
