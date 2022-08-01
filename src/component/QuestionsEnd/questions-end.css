@@ -1,6 +1,12 @@
 .questions-end-container {
-    height: var(--body-height);
+    min-height: var(--body-height);
     font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 640px) {
+    .questions-end-container {
+        height: var(--body-height);
+    }
 }
 
 .questions-end h1 {

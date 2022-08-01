@@ -4,7 +4,7 @@
     "choices": [
       "Le processus de transfert de savoir-faire entre secteurs",
       "Les normes professionelles pour écrire un courriel en entreprise",
-      "Comment transmettre le plus d'informations le plus rapidement possible",
+      "Comment transmettre le plus d'informations le plus vite possible",
       "Aucune des ses réponses"
     ],
     "answer": 0,
@@ -20,7 +20,7 @@
       "Enrayer les inégalités sociales"
     ],
     "answer": 1,
-    "reason": "En effet, il est nécessaire pour la santé de l’organisation d’assurer un transfert communicationnel efficace et ouvert. Le transfert de connaissances permet d’enrayer les goulots d’étranglement à long terme, où ils peuvent poser le plus de problèmes",
+    "reason": "Contribuer à une meilleure santé organisationnelle;\nIl est nécessaire pour la santé de l’organisation d’assurer un transfert communicationnel efficace et ouvert. Le transfert de connaissances permet d’enrayer les goulots d’étranglement à long terme, où ils peuvent poser le plus de problèmes.",
     "section": "Partie 2 : En quoi est-ce un enjeu ?"
   },
   {
@@ -30,7 +30,7 @@
       "Faux"
     ],
     "answer": 1,
-    "reason": "À petite échelle, le transfert de connaissances peut en effet s’observer au quotidien au travers de conversations, de projets, d’enjeux entre départements, ou encore lors de l’arrivée d’un nouvel employé qu’on doit former. Cependant, à plus grande échelle, on peut facilement imaginer le besoin d’avoir un bon processus de transfert de connaissances lors d’événements comme des fusions ou des acquisitions d’entreprises, événements qui ne sauraient être qualifiés de tâches quotidiennes. On retrouve donc le transfert de connaissances à tous niveaux d’une organisation",
+    "reason": "On retrouve le transfert de connaissances à tous niveaux d’une organisation, que ce soit à petite échelle ou à plus grande échelle.",
     "section": "Partie 2 : En quoi est-ce un enjeu ?"
   },
   {
@@ -39,12 +39,11 @@
       "Empêcher la réalisation de la mission",
       "Diminuer la productivité des employés",
       "Empêcher la pleine exploitation des ressources",
-      "Perte financière",
-      "Manquer une opportunité d’affaire",
+      "Causer une perte financière ou faire manquer une opportunité d’affaire",
       "Toutes ces réponses"
     ],
     "answer": 5,
-    "reason": "Les connaissances sont un enjeu pour les organisations au même titre que les ressources humaines, matérielles et financières : elles contribuent à réaliser la mission de l’organisation.Il est essentiel de savoir qui sait quoi, qui a besoin de savoir quoi et comment transférer ces connaissances, surtout lorsque la valeur d'une entreprise est constituée en grande partie d'informations. Ne pas être à l’affût des nouvelles connaissances et ne pas les utiliser équivaut souvent à une perte financière de par le manque d’optimisation de l’utilisation des ressources de l’entreprise. De plus, un bon processus de transfert des connaissances contribue grandement à la performance et productivité de l’organisation et de ses employés.",
+    "reason": "Le transfert de connaissances permet d’utiliser au maximum les ressources d’une entreprise, permettant de contrer, du moins en partie, à tous ces enjeux énumérés çi-haut.",
     "section": "Partie 2 : En quoi est-ce un enjeu ?"
   },
   {

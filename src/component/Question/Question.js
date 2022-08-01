@@ -75,10 +75,10 @@ const Question = (props) => {
             </button>
           </div>
         </div>
-        <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}
-             className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
-          {reason}
-        </div>
+      </div>
+      <div style={{visibility: selectedAnswer.index !== null ? 'visible' : 'hidden'}}
+           className={`reason ${selectedAnswer.index === question.answer ? 'good' : 'bad'}`}>
+        {reason}
       </div>
     </section>
   );
