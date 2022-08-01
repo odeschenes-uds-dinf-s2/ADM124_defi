@@ -20,7 +20,7 @@
 .information article header {
     margin: 0;
     width: 100%;
-    @apply p-12 m-12;
+    @apply p-5 sm:p-12  m-6 sm:m-12;
 }
 
 .information article:first-of-type header {
