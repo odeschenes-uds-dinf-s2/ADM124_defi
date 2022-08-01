@@ -36,6 +36,30 @@
     "section": "Partie 1 : Qu'est-ce que c'est ?"
   },
   {
+    "question": "Quel est l'objectif principal du transfert de connaissance ?",
+    "choices": [
+      "Faire progresser les carrières des employés plus rapidement",
+      "Réduire le fossé qui existe entre les connaissances et la pratique",
+      "Atteindre un certain quota de certifications annuelles pour l'entreprise",
+      "Améliore les relations entre les plus expérimentés et les nouveaux employés"
+    ],
+    "answer": 1,
+    "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace.",
+    "section": "Partie 3 : Pourquoi le faire ?"
+  },
+  {
+    "question": "Lequel de ces choix n'est pas une façon d'utiliser les connaissances ?",
+    "choices": [
+      "L'utilisation conceptuelle",
+      "L'utilisation instrumentale",
+      "L'utilisation pratique",
+      "L'utilisation stratégique"
+    ],
+    "answer": 2,
+    "reason": "L'utilisation conceptuelle fait référence à un changement de vision et de mentalité suite à l'acquisition de nouvelles connaissances sur un sujet. L'utilisation instrumentale est pertinent quand les connaissances servent de fondement à la prise d'une décision ou à la réalisation de changements concrets dans les pratiques. L'utilisation stratégique survient lorsque les connaissances servent à légitimer et à justifier des actions.",
+    "section": "Partie 3 : Pourquoi le faire ?"
+  },
+  {
     "question": "Laquelle de ces pratiques n'est pas utilisée dans le cadre d'un transfert de connaissance ?",
     "choices": [
       "Mentorat",
@@ -45,10 +69,10 @@
     ],
     "answer": 2,
     "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace.",
-    "section": "Partie 3 : Comment le faire ?"
+    "section": "Partie 4 : Comment le faire ?"
   },
   {
-    "question": "Laquelle de ces étapes ne fait pas partie du processus de transfert de connaissances ?"
+    "question": "Laquelle de ces étapes ne fait pas partie du processus de transfert de connaissances ?",
     "choices": [
       "Valorisation du savoir",
       "Appropriation des connaissances",
@@ -57,6 +81,6 @@
     ],
     "answer": 0,
     "reason": "La valorisation du savoir n'a pas rapport dans le processus de transfert de connaissances.",
-    "section": "Partie 3 : Comment le faire ?"
+    "section": "Partie 4 : Comment le faire ?"
  }
 ]
