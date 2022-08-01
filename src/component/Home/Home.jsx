@@ -14,7 +14,7 @@ export function Home() {
             </h1>
           </div>
           <div>
-            Par Olivier Deschênes, Noemie Dallaire-Nicholas, Olivier Mailhot <br />et Jean-Sébastion Paquette
+            Par Olivier Deschênes, Noemie Dallaire-Nicholas, Olivier Mailhot <br />et Jean-Sébastien Paquette
           </div>
           <div className={'home-links flex mt-5 justify-center space-x-5'}>
             <Link className={'bg-blue-500 link'} to={'/informations'} >Informations</Link>
