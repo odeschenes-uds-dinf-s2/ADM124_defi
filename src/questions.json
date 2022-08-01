@@ -34,5 +34,17 @@
     "answer": 5,
     "reason": "Les connaissances sont un enjeu pour les organisations au même titre que les ressources humaines, matérielles et financières : elles contribuent à réaliser la mission de l’organisation.Il est essentiel de savoir qui sait quoi, qui a besoin de savoir quoi et comment transférer ces connaissances, surtout lorsque la valeur d'une entreprise est constituée en grande partie d'informations. Ne pas être à l’affût des nouvelles connaissances et ne pas les utiliser équivaut souvent à une perte financière de par le manque d’optimisation de l’utilisation des ressources de l’entreprise. De plus, un bon processus de transfert des connaissances contribue grandement à la performance et productivité de l’organisation et de ses employés.",
     "section": "Partie 1 : Qu'est-ce que c'est ?"
+  },
+  {
+    "question": "Laquelle de ces pratiques n'est pas utilisée dans le cadre d'un transfert de connaissance ?",
+    "choices": [
+		  "Mentorat",
+		  "Expérience guidée",
+		  "Réunions trimestrielles",
+		  "Transfert narratif"
+	  ],
+    "answer": 2,
+	  "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace."
+	  "section": "Partie 3 : Comment le faire ?"
   }
 ]
