@@ -216,7 +216,7 @@ export function Informations() {
             <br/>
             <b>Pourquoi le faire?</b>
             <ul>
-              <li>DEMERS, Marie. «S’investir en transfert DE CONNAISSANCES», Québec en forme, été 2013 : <a
+              <li>DEMERS, Marie. «S’investir en transfert DE CONNAISSANCES», Québec en forme, été 2013 (Consulté le 30 juillet 2022) : <a
                 href="https://bel.uqtr.ca/id/eprint/1903/1/Transfert_de_connaissances.pdf">Lien</a>
               </li>
             </ul>
