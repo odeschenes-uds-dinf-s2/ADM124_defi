@@ -56,7 +56,7 @@
       "Améliore les relations entre les plus expérimentés et les nouveaux employés"
     ],
     "answer": 1,
-    "reason": "Le savoir disponible ne répond pas toujours aux besoins des milieux de pratique, c'est pourquoi il faut réduire le fossé entre les deux",
+    "reason": "Les réunions trimestrielles impliquent généralement trop de personnes provenants de départements différents pour faire un transfert de connaissances efficace.",
     "section": "Partie 3 : Pourquoi le faire ?"
   },
   {
@@ -93,6 +93,18 @@
     ],
     "answer": 0,
     "reason": "La valorisation du savoir n'a pas rapport dans le processus de transfert de connaissances.",
+    "section": "Partie 4 : Comment le faire ?"
+  },
+  {
+    "question": "Laquelle de ces pratiques est associée à la logique d'action formelle ?",
+    "choices": [
+      "Mentorat",
+      "Formation vidéo sous forme de cassettes VHS",
+      "Supervision",
+      "Transfert narratif"
+    ],
+    "answer": 1,
+    "reason": "Le transfert de connaissance prend souvent la forme de vidéos explicatives dans une organisation ayant une logique d'action formelle.",
     "section": "Partie 4 : Comment le faire ?"
   }
 ]
