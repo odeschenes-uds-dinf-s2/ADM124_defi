@@ -167,7 +167,14 @@ export function Informations() {
               pratique. On entend parfois parler de façon interchangeable de mobilisation des connaissances,
               d’application,
               d’utilisation, de translation ou de transmission de connaissances.
-
+              
+            </p>
+            <p>
+              Le transfert de connnaissances peut prendre plusieurs formes selon la logique d’action de l’organisation.
+              En effet, dans une organisation ayant une logique d’action charismatique, celui-ci va prendre la forme 
+              de travail apparié, de pratique ou d’expérience guidée. Dans une organisation plus traditionnelle, 
+              on misera plus sur le mentorat, le transfert narratif ou la surveillance du travail. Finalement, 
+              dans une organisation formelle, on verra des vidéos explicatives, de la documentation écrite et des cours en ligne.
             </p>
           </section>
         </div>
